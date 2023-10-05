@@ -13,7 +13,7 @@
   - [Table of Contents](#table-of-contents)
   - [Why UpskillML?](#why-upskillml)
   - [Prerequisites](#prerequisites)
-  - [Course Outline](#course-outline)
+  - [Course Outline\[VERY WIP\]](#course-outlinevery-wip)
   - [Quarter 1: Foundations](#quarter-1-foundations)
     - [Week 1: Linear Algebra for Machine Learning](#week-1-linear-algebra-for-machine-learning)
     - [Week 2: Probability and Statistics for Machine Learning](#week-2-probability-and-statistics-for-machine-learning)
@@ -42,7 +42,7 @@ The transition from software development to AI/ML involves a unique set of chall
 - Familiarity with Git and GitHub
 - A knack for logical reasoning and problem-solving
 
-## Course Outline
+## Course Outline[VERY WIP]
 
 ---
 
