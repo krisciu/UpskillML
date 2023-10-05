@@ -1,115 +1,116 @@
 # Elements of Statistical Learning
 ## Chapter 1
 
-### Statistical learning examples
-- Predict P(Patient has a second heart attack | Patient has already had another heart attack) given
-  - demographic
-  - diet
-  - clinical measurements
+### Statistical Learning Examples
+- Predict P(Patient has a second heart attack | Patient has already had a heart attack) given:
+  - Demographics
+  - Diet
+  - Clinical measurements
 
-- Predict Stock price given
-  - company performance measures
-  - economic data
+- Predict stock price given:
+  - Company performance measures
+  - Economic data
 
-- parse handwriting -> text
+- Parse handwriting -> text
 
-- estimate amt of glucose in blood given infrad absoption spectrum of blood
+- Estimate amount of glucose in blood given infrared absorption spectrum of blood
 
-- identify P(prostate cancer) given
-  - clinical and demographic variables
-
-
-### Core ideas
-- some `outcome`
-  - quantitative(ex: Stock price)
-  - categorical(heart attack/ no heart attack)
-
-- based on `features`
-    - ex: diet, measurements
-
-- we have a `training set`
-  - known set of features and outcome
-
-- use above to build `learner`
-  - a model that can predict theoutcome given the training set
-
-This process is known as `supervised learning`
-- It is called `supervised learning`  because we can use known values to teach our learning
-
-Other type of learning known as `unsupervised learning`
-- we only have the features, no known outcome
-- we have to describe how the data is clustered
+- Identify P(prostate cancer) given:
+  - Clinical and demographic variables
 
 
-### Some examples
+### Core Ideas
+- Some `outcome`:
+  - Quantitative (e.g., Stock price)
+  - Categorical (heart attack/ no heart attack)
+
+- Based on `features`:
+  - e.g., Diet, measurements
+
+- We have a `training set`:
+  - Known set of features and outcome
+
+- Use above to build `learner`:
+  - A model that can predict the outcome given the training set
+
+This process is known as `supervised learning`.
+- It is called `supervised learning` because we can use known values to teach our learning.
+
+Other type of learning known as `unsupervised learning`.
+- We only have the features, no known outcome.
+- We have to describe how the data is clustered.
+
+
+### Some Examples
 
 #### Spam Detector
 
-Goal
-- build an automatic spam detector
+Goal:
+- Build an automatic spam detector
 
-Features
+Features:
 - 4601 email messages
 
-Outcomes
-- labels `email` and `spam` on features
+Outcomes:
+- Labels `email` and `spam` on features
 
-This is classic example of a `classification` problem
-- more specifically a `binary classification` problem[spam OR email]
-
-
-
-#### Prostate cancer[oh boy!]
-
-Goal
-- predict log(prostate specific antigen) given measurements
-
-Features[lots]
-- log cancer volume
-- log prostate weight
-- seminal vesicle invasion[eww i don't want to know what this is]
-- tons more
-
-Outcomes
-- not stated but a scatterplot is provided
-
-This is an example of a `regression problem` as the outcome measurement is quantitative
+This is a classic example of a `classification` problem.
+- More specifically, a `binary classification` problem [spam OR email].
 
 
-#### Handwritten digit sorter
 
-Goal
+#### Prostate Cancer [Oh boy!]
+
+Goal:
+- Predict log(prostate specific antigen) given measurements
+
+Features [Lots]:
+- Log cancer volume
+- Log prostate weight
+- Seminal vesicle invasion [Eww, I don't want to know what this is]
+- Tons more
+
+Outcomes:
+- Not stated but a scatterplot is provided
+
+This is an example of a `regression problem` as the outcome measurement is quantitative.
+
+
+#### Handwritten Digit Sorter
+
+Goal:
 - Given handwritten zip codes, parse the text
 
-Features
-- set of 16x16 8bit grayscale maps
+Features:
+- Set of 16x16 8-bit grayscale maps
 
-Outcomes
-- not specified
+Outcomes:
+- Not specified
 
-This is a `classification` problem, where we need a low error rate
-in order to accomplish this, we can classify some as `don't know`
+This is a `classification` problem, where we need a low error rate.
+In order to accomplish this, we can classify some as `don't know`.
 
-#### DNA Expression microarrays
 
-Goal
+#### DNA Expression Microarrays
+
+Goal:
 - Map gene expression data to uncover similarities between tumor samples and genes
 
-Features
-- Heatmap of expression levels of each gene versus samples, with 6380 genes and 64 samples
+Features:
+- Heatmap of expression levels of each gene versus samples, with 6830 genes and 64 samples
 
-Outcomes
-- none given
+Outcomes:
+- None given
 
-this is an example of an `unsupervised learning` problem, as we are trying to assess
+This is an example of an `unsupervised learning` problem, as we are trying to assess:
 
 a. Which samples are most similar in terms of expression profiles across genes?
 
-b. Which genes are most similar in terms of expression profiles across samples
+b. Which genes are most similar in terms of expression profiles across samples?
 
-c. do certain genes show high or low expression for certain cancer samples?
+c. Do certain genes show high or low expression for certain cancer samples?
 
-we want to find these naturally occurring clusters
+We want to find these naturally occurring clusters.
 
 
 
