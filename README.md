@@ -114,6 +114,7 @@ The transition from software development to AI/ML involves a unique set of chall
 
 ## Useful resources
 1. This [ML-Guide on Github](https://github.com/mikeroyal/Machine-Learning-Guide)
+2. My [Youtube Channel](https://www.youtube.com/channel/UCjIECuQuXJhh6qqWX1oA9EQ)
 
 ## Feedback
 
